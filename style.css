@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --var-body-bg:#fff;
+    --var-body-fc:#333;
+    --var-header-bg:#fff;
+}
+[dark] {
+    --var-body-bg:#333;
+    --var-body-fc:#fff;
+}
+body{
+    background-color: var(--var-body-bg);
+    color: var(--var-body-fc);
+    
+}
+.theme{
+    float: right;
+    right: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+}
+
+.header{
+padding: 1 rem;
+background-color: var(--var-body-bg);
+border-bottom: .1 rem solid var(--var-body-fc);
+}

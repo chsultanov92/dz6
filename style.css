@@ -27,8 +27,3 @@ body{
 
 }
 
-.header{
-padding: 1 rem;
-background-color: var(--var-body-bg);
-border-bottom: .1 rem solid var(--var-body-fc);
-}
